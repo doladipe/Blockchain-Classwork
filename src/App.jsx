@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="">
-      <div className="bg-[url(public/gbo-WyXuSQMDt1c-unsplash.jpg)] bg-center bg-contain ">
+      <div className="bg-[url(/gbo-WyXuSQMDt1c-unsplash.jpg)] bg-center bg-contain ">
         <div className="min-h-screen mx-auto max-w-6xl">
           <nav className="flex items-center justify-between px-6 py-9">
             <h1 className="text-2xl font-bold text-white">Next3Gen</h1>
@@ -60,7 +60,7 @@ function App() {
               <img
                 className="animate-spin mt-15 ml-10 w-sm max-w-xl"
                 style={{ animationDuration: "30s" }}
-                src="public/dark.jpg"
+                src="/dark.jpg"
                 alt=""
               />
             </div>
@@ -88,7 +88,7 @@ function App() {
               <img
                 className="animate-spin  w-sm max-w-xl"
                 style={{ animationDuration: "30s" }}
-                src="public/dark.jpg"
+                src="/dark.jpg"
                 alt=""
               />{" "}
             </div>
@@ -447,7 +447,7 @@ function App() {
       </div>
 
       {/* Section 8  */}
-      <div className="bg-[url(public/gbo-WyXuSQMDt1c-unsplash.jpg)] bg-contain py-10 ">
+      <div className="bg-[url(/gbo-WyXuSQMDt1c-unsplash.jpg)] bg-contain py-10 ">
         <div className="mx-auto  max-w-6xl flex flex-col justify-center items-center   ">
           <h1 className=" text-1xl font-bold bg-gradient-to-r from-blue-900 to-green-400 bg-clip-text text-transparent">
             DECENTRALIZED FUTURE
@@ -469,7 +469,7 @@ function App() {
               <div className=" ">
                 <img
                   className=" "
-                  src="/public/Screenshot 2025-06-07 at 22.08.30.png"
+                  src="/Screenshot 2025-06-07 at 22.08.30.png"
                   alt=""
                 />
               </div>
